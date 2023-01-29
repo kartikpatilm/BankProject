@@ -29,6 +29,7 @@ public class BLoginTest extends BaseTest{
 	@Test
 	public void verifyTitle() {
 		Assert.assertFalse(driver.getTitle().contains("Guru99"),"Page title does not matched");
+system.out.println"VerifyTitle");
 		
 	}
 	@Test
